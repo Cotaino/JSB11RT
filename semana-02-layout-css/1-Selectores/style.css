@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  
+  header{
+    background-color: rgb(67, 92, 212 );
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+  }
+  h2{
+    color:blue
+  }
+  .importante{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  li{
+    list-style:circle inside;
+  }
+
+table thead:first-child {
+    background-color:rgb(36, 66, 216);
+    color: white;
+    
+  }
+table tbody {
+        background-color: rgb(168, 206, 219) ;
+        color: black;
+        text-align: center;
+      }
+
+table tr:nth-child(2) {
+        background-color: rgb(67, 92, 212 );
+        text-align: center;
+      }
+table tr:nth-child(3){
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+table tr:nth-child(4) {
+        background-color: rgb(67, 92, 212 );
+        text-align: center;
+      }
+table th:first-child {
+    color:black;
+    background-color: rgb(67, 92, 212 );
+        
+}
+  

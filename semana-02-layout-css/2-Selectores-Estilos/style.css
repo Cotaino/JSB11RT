@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.lista :nth-child(2n+1)  {
+  text-decoration: underline green;
+}
+
+.lista :last-child {
+  background-color: rgb(12, 24, 131);
+}
+.lista{
+  display: flex;
+  list-style: none;
+  gap:10px;
+  
+}
+.lista :nth-child(1)::after {
+    content: "🐱 ";
+  }
+.lista :nth-child(2)::after {
+    content: "🥹 ";
+  }
+.lista :nth-child(3)::after {
+    content: "😆 ";
+  }
+.lista :nth-child(4)::after {
+    content: "🥳";
+  }
+.lista :nth-child(5)::after {
+    content: "😡";
+  }
+.lista :nth-child(6)::after {
+    content: "🥱";
+  }
+.lista :lang(en){
+    font-size: larger;
+    text-transform: uppercase ;
+}
+
+#provincias :nth-child(1n+3){
+    list-style:upper-roman inside;
+}
+#provincias :first-child{
+  list-style:upper-roman inside;
+}
