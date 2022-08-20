@@ -1,0 +1,30 @@
+{
+  "name": "mini-wallapop",
+  "version": "1.0.0",
+  "description": "Este en un proyecto de backend para una mini plataforma de compra-venta",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "db": "node db/initDB.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sharp": "^0.30.7",
+    "uuid": "^8.3.2"
+  }
+}

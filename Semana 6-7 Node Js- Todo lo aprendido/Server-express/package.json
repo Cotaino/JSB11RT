@@ -1,0 +1,25 @@
+{
+  "name": "server-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "ejercicio1": "nodemon ejercicios/ejercicio1/server.js",
+    "ejercicio2": "nodemon ejercicios/ejercicio2/server.js",
+    "ejercicio3": "nodemon ejercicios/ejercicio3/server.js",
+    "ejercicio4": "nodemon ejercicios/ejercicio4/server.js",
+    "ejercicio5": "nodemon ejercicios/ejercicio5/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

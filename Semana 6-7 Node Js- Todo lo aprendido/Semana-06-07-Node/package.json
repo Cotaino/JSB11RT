@@ -1,0 +1,23 @@
+{
+  "name": "semana-06-07-node",
+  "version": "1.0.0",
+  "description": "Pues este es un proyecto de gestión de experiencias",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "db": "node db/initDB.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
